@@ -1,0 +1,47 @@
+html {
+    font-family: 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+}
+
+.table-container:not(:first-child), 
+blockquote:not(:first-child), 
+p:not(:first-child),
+center:not(:first-child) {
+    margin-top: 1rem !important;
+}
+
+.hover\:opacity-75:hover,
+.hover\:opacity-75 {
+    transition: all ease 0.25s;
+}
+
+article blockquote {
+    font-style: normal !important;
+}
+
+.focus\:ring:focus {
+    box-shadow: none !important;
+}
+
+.sidebar a, .sidebar button {
+    line-height: 1.2rem !important;
+}
+
+.text-sm {
+    text-decoration: none;
+}
+
+nav {
+    backdrop-filter: blur(20px) saturate(300%);
+}
+
+.bg-opacity-\[\.97\] {
+    --tw-bg-opacity: .9 !important;
+}
+
+.dark .dark\:border-gray-900 {
+    --tw-bg-opacity: .75 !important;
+}
+
+code, kbd, pre, samp {
+    font-family: ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,'Microsoft YaHei','PingFang SC',monospace !important;
+}
