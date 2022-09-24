@@ -1,0 +1,17 @@
+.logo__title {
+    margin: 4px;
+    font-size: 17px;
+}
+
+.logo__subtitle {
+    opacity: 0.3;
+    font-size: 11px;
+}
+
+@media screen and (max-width:450px) {
+    .logo__subtitle {display: none;}
+}
+
+@media screen and (max-width:400px) {
+    .logo__title {display: none;}
+}

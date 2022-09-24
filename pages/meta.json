@@ -1,0 +1,15 @@
+{
+	"index": {
+		"title": "主页",
+		"type": "nav",
+		"hidden": true
+	},
+	"nav": {
+		"title": "导引",
+		"type": "nav"
+	},
+	"blog": {
+		"title": "公告",
+		"type": "nav"
+	}
+}
